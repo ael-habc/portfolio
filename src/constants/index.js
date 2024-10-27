@@ -1,265 +1,282 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  mysql,
+  php,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  rpc,
+  cosmecode,
+  academy,
+  gomycode,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+} from "../assets";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "experience",
+    title: "Experience",
+  },
+  // {
+  //   id: "project",
+  //   title: "Projects",
+  // },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const about = {
+  title: "Introduction",
+  headText: "About Me.",
+  about:
+    "With over 4 years of full-stack development experience, I specialize in creating intuitive, high-performance interfaces with React and building scalable, efficient backend systems using Node.js, PHP, and MySQL. My work spans innovative projects from D2C applications to AR solutions, where I've consistently prioritized seamless user experiences and advanced performance optimization. Driven by a passion for continuous learning and improvement, I bring a hands-on approach to both crafting and optimizing digital products that meet evolving user and business needs.",
+};
+
+const services = [
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "React Native Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Coach & Mentor",
+    icon: creator,
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "PhP",
+    icon: php,
+  },
+  {
+    name:'mySQL',
+    icon: mysql,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+ 
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+];
+
+const experiences = [
+  {
+    title: "Full-Stack Developer",
+    company_name: "Cosmecode",
+    icon: cosmecode,
+    iconBg: "#0A1930",
+    date: "April 2021 - October 2021",
+    points: [
+      "Designing and Developing D2C Applications: Led the creation of a Direct-to-Consumer (D2C) app with React.js, Node.js, and MySQL, optimizing for an engaging and user-centered experience.",
+      "Building B2B Plugins: Developed a Business-to-Business (B2B) plugin using PHP and Laravel, designed to streamline operations and integrate effortlessly with other platforms.",
+      "Engineering AR Features with Computer Vision: Created an Augmented Reality (AR) feature for virtual try-on using computer vision technologies and OpenCV, adding an interactive layer to the user experience.",
+      "Crafting Responsive Web Solutions: Designed and implemented a front-end for a web solution using HTML, CSS, JavaScript, and React.js, ensuring responsiveness and a seamless user experience.",
+    ],
+  },
+  {
+    title: "Web Development Teacher & Project Manager",
+    company_name: "3W Avademy",
+    icon: academy,
+    iconBg: "#CD181A",
+    date: "Sep 2022 - April 2023",
+    points: [
+      "Conducted Training in Core Web Technologies: Led in-depth training sessions covering HTML, CSS, JavaScript, React.js, Node.js, MySQL, PHP, and Laravel, providing students with comprehensive insights into both front-end and back-end development.",
+      "Developed Hands-On, Practical Curricula: Designed and implemented interactive learning experiences with practical exercises and real-world projects, reinforcing key concepts and skills.",
+      "Balanced Theory and Application: Delivered a curriculum that integrated foundational knowledge with real-world coding challenges, facilitating skill mastery through projects and live coding sessions.",
+      "Fostered a Collaborative Learning Environment: Promoted teamwork and peer learning, creating a supportive atmosphere that encouraged students to openly share ideas and solve problems collaboratively.",
+    ],
+  },
+  {
+    title: "Web Development Instructor",
+    company_name: "GoMyCode",
+    icon: gomycode,
+    iconBg: "#0F0F0F",
+    date: "April 2023 - Aug 2023",
+    points: [
+      "Technical Expertise: Advanced proficiency in modern web technologies, including HTML, CSS, JavaScript, React.js, Node.js, MySQL, PHP, and Laravel, for building robust and responsive applications.",
+      "Mentorship & Leadership: Proven ability to mentor and support aspiring developers, with a focus on cultivating strong technical skills and effective problem-solving strategies.",
+      "Curriculum Design & Delivery: Expert in crafting and delivering interactive, hands-on curriculum that emphasizes real-world applications and reinforces concept mastery through practical exercises.",
+      "Fostering Collaboration: Committed to nurturing a collaborative learning environment that promotes teamwork, peer-to-peer support, and an engaging educational experience.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "RightPlaceCall",
+    icon: rpc,
+    iconBg: "#FFFFFF",
+    date: "Sep 2023 - March 2024",
+    points: [
+      "Design & Development: Led UI design and development, using Figma for wireframing and prototyping, paired with HTML, CSS, and JavaScript to create responsive, visually engaging user interfaces.",
+      "Front-End Development: Crafted dynamic and interactive forms and landing pages with React.js, focusing on seamless user experiences.",
+      "Back-End Integration: Built server-side functionalities using Node.js and PHP, with MySQL for optimized data management and retrieval.",
+      "Cross-Platform Optimization: Ensured compatibility across browsers and devices, enhancing user experience on multiple platforms.",
+      "Problem Solving & Algorithms: Created tailored algorithms to address enterprise-level challenges, boosting efficiency and innovation."
+    ],
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "It is a real pleasure working with Abdellah. He is a great addition to Cosmecode's team, and is remarkable regarding both, soft and hard skills.",
+    name: "Dr Sarah Mellouki",
+    designation: "CEO",
+    company: "Cosmecode",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQFe11QYRegTPg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713008468872?e=1735776000&v=beta&t=ak4SriTeuhdStlIvhcbCFi3D4-uZF3n43JCRsikk1Po",
+  },
+  {
+    testimonial:
+      "Working with Abdellah as my web coach was a game-changer! He has a knack for making tough concepts easy to grasp and keeps the learning vibe fun.",
+    name: "Zakaria Tittah",
+    designation: "Student",
+    company: "3W Academy",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQGKrGZpPAb04Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683320468519?e=1735776000&v=beta&t=RFAco9AlXfsaCRhM96FPTC7easQljAee6C9b_ANishk",
+  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
+];
+
+const projects = [
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Job IT",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, about };
