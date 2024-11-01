@@ -14,15 +14,14 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   rpc,
   cosmecode,
   academy,
   gomycode,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+   threejs,
+  matcha,
+  hypertube,
+  mybeauty
 } from "../assets";
 
 export const navLinks = [
@@ -96,7 +95,7 @@ const technologies = [
     icon: php,
   },
   {
-    name:'mySQL',
+    name: "mySQL",
     icon: mysql,
   },
   {
@@ -123,7 +122,7 @@ const technologies = [
   //   name: "figma",
   //   icon: figma,
   // },
- 
+
   // {
   //   name: "docker",
   //   icon: docker,
@@ -181,7 +180,7 @@ const experiences = [
       "Front-End Development: Crafted dynamic and interactive forms and landing pages with React.js, focusing on seamless user experiences.",
       "Back-End Integration: Built server-side functionalities using Node.js and PHP, with MySQL for optimized data management and retrieval.",
       "Cross-Platform Optimization: Ensured compatibility across browsers and devices, enhancing user experience on multiple platforms.",
-      "Problem Solving & Algorithms: Created tailored algorithms to address enterprise-level challenges, boosting efficiency and innovation."
+      "Problem Solving & Algorithms: Created tailored algorithms to address enterprise-level challenges, boosting efficiency and innovation.",
     ],
   },
 ];
@@ -193,7 +192,8 @@ const testimonials = [
     name: "Dr Sarah Mellouki",
     designation: "CEO",
     company: "Cosmecode",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQFe11QYRegTPg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713008468872?e=1735776000&v=beta&t=ak4SriTeuhdStlIvhcbCFi3D4-uZF3n43JCRsikk1Po",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E03AQFe11QYRegTPg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713008468872?e=1735776000&v=beta&t=ak4SriTeuhdStlIvhcbCFi3D4-uZF3n43JCRsikk1Po",
   },
   {
     testimonial:
@@ -201,7 +201,8 @@ const testimonials = [
     name: "Zakaria Tittah",
     designation: "Student",
     company: "3W Academy",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQGKrGZpPAb04Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683320468519?e=1735776000&v=beta&t=RFAco9AlXfsaCRhM96FPTC7easQljAee6C9b_ANishk",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E03AQGKrGZpPAb04Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1683320468519?e=1735776000&v=beta&t=RFAco9AlXfsaCRhM96FPTC7easQljAee6C9b_ANishk",
   },
   // {
   //   testimonial:
@@ -217,65 +218,65 @@ const projects = [
   {
     name: "Matcha",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Matcha is a web project built with React.js for the frontend, Node.js/Express.js for the backend, and MySQL as the database management system. The project is designed to create a dating app similar to Tinder.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: matcha,
+    source_code_link: "https://github.com/ael-habc/matchaV3",
   },
   {
-    name: "Job IT",
+    name: "HyperTube",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web application for streaming movies, where we focus on fetching APIs and understanding their usage. We use React as the main frontend framework, Node.js/Express.js for the backend, and MongoDB for database management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongoDb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: hypertube,
+    source_code_link: "https://github.com/ael-habc/HyperTube",
   },
   {
-    name: "Trip Guide",
+    name: "My Beauty Advisor",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A cutting-edge makeup matching app built with Flutter, responsive experience, powered by a Node.js API, and featuring advanced AI algorithms in Python. This app expertly analyzes your skin tone to suggest the perfect shade, personalized look every time!.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Phyton",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "nodeJS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: mybeauty,
+    source_code_link: "https://github.com/ael-habc/myBeauty",
   },
 ];
 

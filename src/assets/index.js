@@ -9,7 +9,6 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import php from "./tech/php.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -28,16 +27,10 @@ import gomycode from "./company/gomycode.jpg";
 import cosmecode from "./company/cosmecode.jpg";
 import academy from "./company/3w_academy.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
-
-
-import clouds from './clouds.png';
-import stars from './stars.png';
-import twinkling from './twinkling.png';
-
+import matcha from "./matcha.png";
+import hypertube from "./hypertube.png";
+import mybeauty from "./mybeauty.png";
 export {
   logo,
   backend,
@@ -49,7 +42,6 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -64,9 +56,9 @@ export {
   gomycode,
   cosmecode,
   academy,
-  carrent,
-  jobit,
-  tripguide,
   php,
   mysql,
+  matcha,
+  hypertube,
+  mybeauty,
 };
