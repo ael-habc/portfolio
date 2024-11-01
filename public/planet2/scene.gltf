@@ -3,95 +3,149 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 2541,
+      "count": 26495,
       "max": [
-        5.010244369506836,
-        5.010244846343994,
-        5.010244846343994
+        0.8758764863014221,
+        0.8545469045639038,
+        0.8728971481323242
       ],
       "min": [
-        -5.010244369506836,
-        -5.010244369506836,
-        -5.010244846343994
+        -0.8763356804847717,
+        -0.8634992837905884,
+        -0.8758782148361206
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 30492,
+      "byteOffset": 317940,
       "componentType": 5126,
-      "count": 2541,
+      "count": 26495,
+      "max": [
+        1.0,
+        0.9999911785125732,
+        0.9991646409034729
+      ],
+      "min": [
+        -1.0,
+        -0.9999968409538269,
+        -0.9999611377716064
+      ],
       "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "componentType": 5126,
-      "count": 2541,
-      "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 2541,
+      "count": 26495,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 14400,
+      "count": 103014,
       "type": "SCALAR"
     },
     {
       "bufferView": 2,
-      "byteOffset": 60984,
+      "byteOffset": 635880,
       "componentType": 5126,
-      "count": 258,
+      "count": 6596,
       "max": [
-        12.907472610473633,
-        12.907471656799316,
-        2.527220885895076e-07
+        0.6551179885864258,
+        0.6613333821296692,
+        0.6618664860725403
       ],
       "min": [
-        -12.907472610473633,
-        -12.907471656799316,
-        -2.384185791015625e-07
+        -0.6606217622756958,
+        -0.6490849852561951,
+        -0.6526646018028259
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 64080,
+      "byteOffset": 715032,
       "componentType": 5126,
-      "count": 258,
+      "count": 6596,
+      "max": [
+        0.999987006187439,
+        0.9998384118080139,
+        0.9999796748161316
+      ],
+      "min": [
+        -0.9995425939559937,
+        -0.999676525592804,
+        -0.9994800686836243
+      ],
       "type": "VEC3"
     },
     {
-      "bufferView": 3,
-      "byteOffset": 40656,
-      "componentType": 5126,
-      "count": 258,
-      "type": "VEC4"
-    },
-    {
       "bufferView": 1,
-      "byteOffset": 20328,
+      "byteOffset": 211960,
       "componentType": 5126,
-      "count": 258,
+      "count": 6596,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
-      "byteOffset": 57600,
+      "byteOffset": 412056,
       "componentType": 5125,
-      "count": 768,
+      "count": 39042,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 451,
+      "max": [
+        15.0
+      ],
+      "min": [
+        0.0
+      ],
       "type": "SCALAR"
     },
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 2382,
+      "count": 451,
       "max": [
-        58.95833206176758
+        0.20017318427562714,
+        0.979751706123352,
+        0.2001722753047943,
+        0.9797602891921997
+      ],
+      "min": [
+        -0.018710684031248093,
+        -0.9797568917274475,
+        -0.1991616040468216,
+        0.0026621678844094276
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1804,
+      "componentType": 5126,
+      "count": 125,
+      "max": [
+        15.0
       ],
       "min": [
         0.0
@@ -101,8 +155,80 @@
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 2382,
+      "count": 125,
+      "max": [
+        1.0000001192092896,
+        1.0,
+        1.0000001192092896
+      ],
+      "min": [
+        0.9999998807907104,
+        1.0,
+        0.9999998807907104
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2304,
+      "componentType": 5126,
+      "count": 451,
+      "max": [
+        15.0
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 7216,
+      "componentType": 5126,
+      "count": 451,
+      "max": [
+        0.20017318427562714,
+        0.979751706123352,
+        0.2001722753047943,
+        0.9797602891921997
+      ],
+      "min": [
+        -0.018710684031248093,
+        -0.9797568917274475,
+        -0.1991616040468216,
+        0.0026621678844094276
+      ],
       "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 4108,
+      "componentType": 5126,
+      "count": 125,
+      "max": [
+        15.0
+      ],
+      "min": [
+        0.0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 1500,
+      "componentType": 5126,
+      "count": 125,
+      "max": [
+        1.0000001192092896,
+        1.0,
+        1.0000001192092896
+      ],
+      "min": [
+        0.9999998807907104,
+        1.0,
+        0.9999998807907104
+      ],
+      "type": "VEC3"
     }
   ],
   "animations": [
@@ -111,139 +237,192 @@
         {
           "sampler": 0,
           "target": {
-            "node": 4,
+            "node": 3,
             "path": "rotation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 3,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 5,
+            "path": "scale"
           }
         }
       ],
-      "name": "space_object_001_gas_giant|space_object_001_gas_giant_rotation",
+      "name": "Animation",
       "samplers": [
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        },
         {
           "input": 10,
           "interpolation": "LINEAR",
           "output": 11
+        },
+        {
+          "input": 12,
+          "interpolation": "LINEAR",
+          "output": 13
+        },
+        {
+          "input": 14,
+          "interpolation": "LINEAR",
+          "output": 15
         }
       ]
     }
   ],
   "asset": {
-    "generator": "fab-model-conversion",
+    "extras": {
+      "author": "cmzw (https://sketchfab.com/cmzw)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70",
+      "title": "Stylized planet"
+    },
+    "generator": "Sketchfab-14.10.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 60672,
+      "byteLength": 568224,
+      "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 22392,
-      "byteOffset": 60672,
+      "byteLength": 264728,
+      "byteOffset": 568224,
       "byteStride": 8,
+      "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 67176,
-      "byteOffset": 83064,
+      "byteLength": 794184,
+      "byteOffset": 832952,
       "byteStride": 12,
+      "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 44784,
-      "byteOffset": 150240,
+      "byteLength": 4608,
+      "byteOffset": 1627136,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3000,
+      "byteOffset": 1631744,
+      "byteStride": 12,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14432,
+      "byteOffset": 1634744,
       "byteStride": 16,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 38112,
-      "byteOffset": 195024
-    },
-    {
-      "buffer": 0,
-      "byteLength": 9528,
-      "byteOffset": 233136
+      "name": "floatBufferViews"
     }
   ],
   "buffers": [
     {
-      "byteLength": 242664,
+      "byteLength": 1649176,
       "uri": "scene.bin"
     }
   ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
   "images": [
     {
-      "uri": "textures/space_object_001_gas_giant_baseColor.png"
+      "uri": "textures/Clouds_baseColor.png"
     },
     {
-      "uri": "textures/space_object_001_gas_giant_normal.png"
-    },
-    {
-      "uri": "textures/space_object_001_rings_baseColor.png"
-    },
-    {
-      "uri": "textures/space_object_001_rings_normal.png"
+      "uri": "textures/Planet_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "space_object_001_gas_giant",
-      "normalTexture": {
-        "index": 1
+      "emissiveTexture": {
+        "index": 0
       },
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Clouds",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
         },
-        "roughnessFactor": 0.8211145618000169
+        "metallicFactor": 0.0
       }
     },
     {
-      "doubleSided": true,
-      "name": "space_object_001_rings",
-      "normalTexture": {
-        "index": 3
+      "emissiveFactor": [
+        0.23391156271636818,
+        0.23391156271636818,
+        0.23391156271636818
+      ],
+      "emissiveTexture": {
+        "index": 1
       },
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Planet",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 2
+          "index": 1
         },
-        "roughnessFactor": 0.8040408205773457
+        "metallicFactor": 0.0
       }
     }
   ],
   "meshes": [
     {
-      "name": "space_object_001_gas_giant_space_object_001_gas_giant_0",
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 2
           },
-          "indices": 4,
+          "indices": 3,
           "material": 0,
           "mode": 4
         }
       ]
     },
     {
-      "name": "space_object_001_gas_giant_space_object_001_rings_0",
+      "name": "Object_1",
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 6,
-            "POSITION": 5,
-            "TANGENT": 7,
-            "TEXCOORD_0": 8
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
           },
-          "indices": 9,
+          "indices": 7,
           "material": 1,
           "mode": 4
         }
@@ -256,17 +435,17 @@
         1
       ],
       "matrix": [
-        1.0,
+        0.9979661703109741,
+        0.06371438503265381,
+        0.001990502001717701,
         0.0,
         0.0,
+        0.031225780025124772,
+        -0.9995123744010925,
         0.0,
-        0.0,
-        2.220446049250313e-16,
-        -1.0,
-        0.0,
-        0.0,
-        1.0,
-        2.220446049250313e-16,
+        -0.06374546885490417,
+        0.9974795579910278,
+        0.031162271276116593,
         0.0,
         0.0,
         0.0,
@@ -279,84 +458,52 @@
       "children": [
         2
       ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
       "matrix": [
         1.0,
         0.0,
         0.0,
         0.0,
         0.0,
-        0.0,
+        2.220446049250313e-16,
         1.0,
         0.0,
         0.0,
         -1.0,
-        0.0,
+        2.220446049250313e-16,
         0.0,
         0.0,
         0.0,
         0.0,
         1.0
       ],
-      "name": "2a1ca2cf339e45a79c201e276f85c574.fbx"
-    },
-    {
-      "children": [
-        3
-      ],
-      "name": "Object_2"
+      "name": "GLTF_SceneRootNode"
     },
     {
       "children": [
         4
       ],
-      "name": "RootNode",
-      "rotation": [
-        0.0,
-        0.0,
-        0.0,
-        1.0
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.0,
-        0.0,
-        0.0
-      ]
-    },
-    {
-      "children": [
-        5,
-        6
-      ],
-      "name": "space_object_001_gas_giant",
-      "rotation": [
-        -0.7070798873901367,
-        -0.006170665379613638,
-        -0.006170665379613638,
-        0.7070798277854919
-      ],
-      "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "translation": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "name": "Clouds_1"
     },
     {
       "mesh": 0,
-      "name": "space_object_001_gas_giant_space_object_001_gas_giant_0"
+      "name": "Object_4"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Planet_2"
     },
     {
       "mesh": 1,
-      "name": "space_object_001_gas_giant_space_object_001_rings_0"
+      "name": "Object_6"
     }
   ],
   "samplers": [
@@ -384,14 +531,6 @@
     {
       "sampler": 0,
       "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
-    },
-    {
-      "sampler": 0,
-      "source": 3
     }
   ]
 }

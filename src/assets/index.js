@@ -32,6 +32,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+
+
+import clouds from './clouds.png';
+import stars from './stars.png';
+import twinkling from './twinkling.png';
+
 export {
   logo,
   backend,

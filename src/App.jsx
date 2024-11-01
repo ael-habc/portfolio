@@ -14,16 +14,21 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
+      <div className="stars"></div>
+      <div className="twinkling"></div>
+      <div className="clouds"></div>
       <div className="realtive z-0 bg-primary">
         <div className="bg-cover bg-no-repeat bg-center">
           <Navbar />
           <StarsCanvas />
-          <Hero />
+          <div className=" relative z-10">
+            <Hero />
+          </div>
         </div>
         <About />
         <Experience />
         <Tech />
-        {/* <Works /> */}
+        <Works />
         <Feedbacks />
         <div className=" relative z-0">
           <Contact />
