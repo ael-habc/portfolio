@@ -21,12 +21,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img alt="logo" src={logo} className="w-10 h-10 object-contain" />
+          <img alt="logo" src={logo} className="sm:w-8 w-10 h-10 object-contain" />
           <p className=" text-white text-[18px] font-bold cursor-pointer flex">
-            Abdellah <span className="sm:block hidden"> &nbsp;| Portfolio</span>
+            Abdellah <span className="md:block hidden"> &nbsp;| Portfolio</span>
           </p>
         </Link>
-        <ul className=" list-none hidden sm:flex flex-row gap-10">
+        <ul className=" list-none hidden sm:flex flex-row md:gap-10 gap-5">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
